@@ -5,10 +5,10 @@ export const setProducts = (products) => {
         payload: products,
     };
 };
-import {ActionTypes} from "../constants/action-types";
+
 export const selectedProducts = (product) => {
     return {
-        type: ActionTypes.SElECTED_PRODUCTS,
+        type: ActionTypes.SELECTED_PRODUCT,
         payload: product,
     };
 };
