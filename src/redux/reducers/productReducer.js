@@ -5,6 +5,7 @@ const initialState = {
         id:1,
         title: "Kamola",
         category: "programmer", 
+        email: "kamola_8880"
     },
 ],
 };
