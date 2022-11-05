@@ -13,6 +13,7 @@ function App() {
   return (
     <div>
    <ProductComponent/>
+   <ProductListing/>
       {/* <Header/> 
        <Routes>  
         <Route path='/' exact component={ProductComponent}/>
