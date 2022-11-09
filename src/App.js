@@ -10,18 +10,20 @@ import ProductListing from "./containers/ProductListing";
 import ProductDetail from "./containers/ProductDetail";
 import { useSelector } from "react-redux";
 import ProductComponent from "./containers/ProductComponent";
+import SignUp from './containers/SignUp/SignUp'
 
 function App() {
   const state = useSelector((state) => state);
   console.log(state);
   return (
     <div className="App">
-      <Routes>
+      <SignUp/>
+      {/* <Routes>
         <Route path="/" exact element={<ProductListing />} />
         <Route path="component" element={<ProductComponent/>} />
         <Route path="/product/:productId" element={<ProductDetail/>} />
         <Route>404 Not Found!</Route>
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
