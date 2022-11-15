@@ -20,6 +20,8 @@ const ProductDetails = () => {
     dispatch(selectedProduct(response.data));
   };
 
+
+  
   useEffect(() => {
     if (productId && productId !== "") fetchProductDetail(productId);
     return () => {
@@ -47,6 +49,7 @@ const ProductDetails = () => {
                 <p>{description}</p>
                 <div className="ui vertical animated button" tabIndex="0">
                   <div >Add to Cart</div>
+                  
                 </div>
               </div>
             </div>
